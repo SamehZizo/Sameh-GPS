@@ -16,11 +16,11 @@ import com.google.android.gms.location.LocationServices;
 public class CurrentLocation {
 
     private final int REQUEST_CODE = 1950;
-    Activity activity;
+    private Activity activity;
 
-    FusedLocationProviderClient fusedLocationProviderClient;
-    LocationRequest locationRequest;
-    LocationCallback locationCallback;
+    private FusedLocationProviderClient fusedLocationProviderClient;
+    private LocationRequest locationRequest;
+    private LocationCallback locationCallback;
 
     private Completed isCompleted;
 
